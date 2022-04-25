@@ -3,5 +3,8 @@ class Product(db.Model):
 
 
 def import_products_csv(file):
-    "Import products from provided csv file stream"
+    """Import products from provided csv file stream
+    
+    :param file: CSV file object
+    """
     NotImplemented
